@@ -1,0 +1,12 @@
+version: '0.1'
+services:
+  fabula:
+    image: fabula:latest
+    ports:
+      - '8080:8888'
+    expose:
+      - '8080'
+#  fabula-ui:
+#    image: fabula-ui:latest
+#    ports:
+#      - '80:80'
